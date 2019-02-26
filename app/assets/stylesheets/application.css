@@ -1,3 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F8F8F8;
+  height: 15vh;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header > p {
+  margin: 20px;
+  font-weight: lighter;
+}
+
+.header > p > a {
+  color: grey;
+}
+
+.index-title > a {
+  color: #337ab7;
+}
+
+i {
+  font-size: 25px;
+  color: #202429;
+}
+
+i:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.article {
+  margin-left: 200px;
+}
+
+.article > a {
+  font-family: 'Roboto Slab', serif;
+  color: #337ab7;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.article > p {
+  font-weight: lighter;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
